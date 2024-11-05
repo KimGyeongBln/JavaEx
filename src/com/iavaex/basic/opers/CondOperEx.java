@@ -24,6 +24,8 @@ public class CondOperEx {
 		System.out.println("점수:" + score + "결과:" + message);
 		
 		
+	
+		
 
 	}
 	// Git 테스트를 위한 임시 주석
