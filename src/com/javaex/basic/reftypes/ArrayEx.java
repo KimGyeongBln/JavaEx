@@ -85,7 +85,7 @@ public class ArrayEx {
 				int val = table[row][col];
 				
 				System.out.print(val + "\t");
-				sum += val; // 내부  ㅊ미ㅣ  데이터 합산
+				sum += val; // 내부  cell  데이터 합산
 				
 			}
 			System.out.println();
