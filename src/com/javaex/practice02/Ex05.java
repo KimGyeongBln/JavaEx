@@ -10,19 +10,26 @@ public class Ex05 {
 	int age;
 	
 	
-	Scanner sc = new Scanner(System.in);
+	Scanner scanner = new Scanner(System.in);
 	
 	System.out.println("나이를 입력해주세요");
 	System.out.print("나이: ");
-	age = sc.nextInt();
-	 if(age > 20) {
+	
+	age = scanner.nextInt();
+	
+	 if(age > 19) {
 		 System.out.print("\"1번그룹\"");
-	}else { if(age < 20);
-	System.out.println("\"2번그룹\"");
-		}
+		 }else{
+			 if(age > 66);
+		 System.out.println("\"1번그룹\"");
+		} {
+			if (age < 66 )
+			System.out.println("\"2번그룹\"");
+		}else {
 	
 	 System.out.println("입니다");
-	sc.close();
- 
+		}
+		
 	}	
+	scanner.close();
 }
