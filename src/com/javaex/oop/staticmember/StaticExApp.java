@@ -1,5 +1,7 @@
 package com.javaex.oop.staticmember;
 
+
+
 public class StaticExApp {
 
 	public static void main(String[] args) {
@@ -23,5 +25,12 @@ public class StaticExApp {
 	 }catch (Exception e) {
 	 }
 	
+	// static 클래스
+//	System.out.println(Calc.PI);
+	//System.out.println(Calc.getSum(1, 2, 3, 4, 5));
+	System.out.println(Calc.PI); 
+	System.out.println(Calc.getSum(1, 2, 3, 4, 5));
+	
 	}
+	
 }
