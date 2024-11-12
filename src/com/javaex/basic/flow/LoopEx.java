@@ -9,7 +9,7 @@ public class LoopEx {
 	//	whileGugu();
 	//	dowhileEx();
 	//	forGugu();
-	//	randomEx();
+		randomEx();
 	}
 
 	
@@ -34,6 +34,12 @@ public class LoopEx {
  	   }
 	}
 	
+	
+	
+	
+	
+	
+	
 	private static void whileGugu() {
 		//	단을 입력 받아서 해당 단의 구구표를 출력
 		Scanner scanner = new Scanner(System.in);
@@ -50,6 +56,14 @@ public class LoopEx {
 		
 		scanner.close();
     }
+	
+	
+	
+	
+	
+	
+	
+	
 	private static void dowhileEx() {
 		//	입력 받은 정수를 다 더한다
 		//	입력 받은 점수가 0이면 반복하지 않는다
@@ -71,6 +85,14 @@ public class LoopEx {
 	}
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
 	private static void forGugu() {
 		//	단을 입력 받아서 해당 단의 구구표를 출력
 		//	(for loop)
@@ -89,6 +111,14 @@ public class LoopEx {
 	}
 		scanner.close();
   }
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	private static void randomEx() {
 		//	math 클래스 : 수학 상수, 수학 함수를 모아둔 클래스
