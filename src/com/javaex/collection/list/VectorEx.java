@@ -1,5 +1,3 @@
-
-
 package com.javaex.collection.list;
 
 import java.util.Vector;
